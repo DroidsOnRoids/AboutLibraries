@@ -58,6 +58,7 @@ dependencies {
 
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
+    implementation group: 'com.google.zxing', name: 'core', version: '3.4.0'
 }
 
 if (project.hasProperty('pushall') || project.hasProperty('library_only')) {
